@@ -1,0 +1,8 @@
+In order to generate fixme line, add this:
+
+[alias]
+    fixline = log -1 --abbrev=12 --format='Fixes: %h (\"%s\")'
+
+to your `.gitconfig` file (the one in your $HOME), then do
+
+git fixline <sha or commit being fixed>
