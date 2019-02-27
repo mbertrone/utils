@@ -1,0 +1,7 @@
+add suggestion, for a PR
+
+```suggestion
+  #code to change
+```
+
+this allows PR owner to apply directly the suggested changed as a commit
