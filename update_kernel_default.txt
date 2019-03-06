@@ -1,0 +1,7 @@
+git clone git@github.com:sebymiano/utility-scripts
+cd utility-scripts
+./list-grub-menuentries.sh
+
+sudo nano /etc/default/grub
+add default entry
+sudo update-grub2
